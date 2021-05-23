@@ -32,15 +32,15 @@ Download "bert-base-chinese-model", "bert-base-chinese-tokenizer" and "pretraine
 
 ## *Methods*
 #### **fit** *(data, feature_col_name, target_col_name)*
-> **data:** Training data. Only support dataframe. <br>
-> **feature_col_name:** Feature's column name of training data.<br>
-> **target_col_name:** Target's column name of training data.<br>
+> **data:** Training data. Only support pandas dataframe. <br>
+> **feature_col_name:** Feature's column name of data.<br>
+> **target_col_name:** Target's column name of data.<br>
 
 #### **predict** *(data, feature_col_name)*
-> **data:** Training data. Only support dataframe. <br>
-> **feature_col_name:** Feature's column name of training data.<br>
+> **data:** Testing data or unlabeled data. Only support pandas dataframe. <br>
+> **feature_col_name:** Feature's column name of data.<br>
 
 #### **save** *(path, save_entire_model=False)*
-> **path:** Save location of the trained model.<br>
-> **save_entire_model:** True when save the trained model's learned parameters (recommend), otherwise False when save the entire module using Python’s pickle module.
+> **path:** The location where you save the model.<br>
+> **save_entire_model:** True when only save the model's parameters (recommend), otherwise False when save the entire model using pickle.
 <br>
