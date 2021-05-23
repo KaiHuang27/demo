@@ -2,7 +2,7 @@
 
 
 ```python
-class bert_regressor.BertRegressor(max_len=300, batch_size=20, epoch=1, lr=3e-5, optimizer=optim.Adam, from_pretrained=None)
+class bert_regressor.BertRegressor(max_len=300, batch_size=20, epoch=1, lr=3e-5, optimizer=optim.Adam, from_pretrained=True)
 ```
 ## Note
 Download "bert-base-chinese-model", "bert-base-chinese-tokenizer" and "pretrained_bert_params.pkl" from S3 and put them in "bert_regressor/".
